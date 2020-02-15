@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "SajSolarToMqtt": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MqttIp": "192.168.1.21",
+        "MqttPort": "1883",
+        "MqttPubTopic": "home/readings/solar",
+        "DebugMode": "false",
+        "InverterEndpoint": "http://google.com"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "environmentVariables": {
+        "MqttIp": "192.168.1.21",
+        "MqttPort": "1881",
+        "MqttPubTopic": "home/readings/solar",
+        "DebugMode": "true",
+        "InverterEndpoint": "http://google.com"
+      }
+    }
+  }
+}
